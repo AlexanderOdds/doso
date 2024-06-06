@@ -12,7 +12,7 @@ function App() {
         <h1>Todo app</h1>
         <div className="input-user">
           <input id="taskInput" placeholder="Enter task here" type="text" />
-          <button id="addButton">Add</button>
+          <button className="button" id="addButton">Add</button>
         </div>
         <ul id="taskList">
         </ul>
